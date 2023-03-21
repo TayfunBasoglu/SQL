@@ -32,28 +32,28 @@ CREATE TABLE public.account (
 
 ~~~~sql
 COPY account
-FROM 'C:\Users\tayfu\Desktop\New folder\account.csv'
+FROM 'C:\Users\tayfun\Desktop\New folder\account.csv'
 DELIMITER ','
 CSV HEADER;
 ~~~~
 
 ~~~~sql
 COPY age_segment
-FROM 'C:\Users\tayfu\Desktop\New folder\age_segment.csv'
+FROM 'C:\Users\tayfun\Desktop\New folder\age_segment.csv'
 DELIMITER ','
 CSV HEADER;
 ~~~~
 
 ~~~~sql
 COPY event
-FROM 'C:\Users\tayfu\Desktop\New folder\event.csv'
+FROM 'C:\Users\tayfun\Desktop\New folder\event.csv'
 DELIMITER ','
 CSV HEADER;
 ~~~~
 
 ~~~~sql
 COPY product
-FROM 'C:\Users\tayfu\Desktop\New folder\product.csv'
+FROM 'C:\Users\tayfun\Desktop\New folder\product.csv'
 DELIMITER ','
 CSV HEADER;
 ~~~~
